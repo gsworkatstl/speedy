@@ -1,0 +1,161 @@
+2024-07-22 6:35:15 - PHP Unknown:  Return type of Twig\Node\Node::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/jorro/stl/speedy_v3/system/storage/vendor/twig/twig/src/Node/Node.php on line 161
+2024-07-22 6:35:15 - PHP Unknown:  Return type of Twig\Node\Node::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/jorro/stl/speedy_v3/system/storage/vendor/twig/twig/src/Node/Node.php on line 166
+2024-07-22 6:36:25 - PHP Unknown:  Return type of Twig\Node\Node::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/jorro/stl/speedy_v3/system/storage/vendor/twig/twig/src/Node/Node.php on line 161
+2024-07-22 6:39:48 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/system/library/cart/user.php on line 43
+2024-07-22 6:39:48 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/jorro/stl/speedy_v3/admin/controller/extension/dashboard/sale.php on line 116
+2024-07-22 6:52:12 - Speedy :: initConnection :: Error finding "uri" property
+2024-07-22 6:52:52 - Speedy :: initConnection :: Error finding "uri" property
+2024-07-22 6:55:51 - Speedy :: initConnection :: Error finding "uri" property
+2024-07-22 6:57:53 - Speedy :: initConnection :: com.omgm.skylogistics.web.soap.eps.exception.login.InvalidUsernameOrPasswordException (EE20240722095751615TNMJFCDJ)
+2024-07-22 6:57:58 - Speedy :: initConnection :: com.omgm.skylogistics.web.soap.eps.exception.login.InvalidUsernameOrPasswordException (EE20240722095756296RPFLXWGJ)
+2024-07-22 6:58:10 - Speedy :: initConnection :: com.omgm.skylogistics.web.soap.eps.exception.login.InvalidUsernameOrPasswordException (EE20240722095809066CUVFDCHL)
+2024-07-22 6:58:24 - Speedy :: initConnection :: com.omgm.skylogistics.web.soap.eps.exception.login.InvalidUsernameOrPasswordException (EE20240722095822726AZPVSYXF)
+2024-07-22 6:58:28 - Speedy :: initConnection :: com.omgm.skylogistics.web.soap.eps.exception.login.InvalidUsernameOrPasswordException (EE20240722095826802ADKLXNMX)
+2024-07-22 6:58:41 - Speedy :: initConnection :: com.omgm.skylogistics.web.soap.eps.exception.login.InvalidUsernameOrPasswordException (EE20240722095839733CTARGBAJ)
+2024-07-22 7:02:21 - PHP Unknown:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home/jorro/stl/speedy_v3/system/library/db/mysqli.php on line 53
+2024-07-22 7:02:21 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/jorro/stl/speedy_v3/catalog/model/catalog/product.php on line 45
+2024-07-22 7:02:21 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/jorro/stl/speedy_v3/catalog/model/catalog/product.php on line 45
+2024-07-22 7:02:21 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/jorro/stl/speedy_v3/catalog/model/catalog/product.php on line 45
+2024-07-22 7:02:21 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/jorro/stl/speedy_v3/catalog/model/catalog/product.php on line 45
+2024-07-22 7:03:14 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/jorro/stl/speedy_v3/catalog/model/catalog/product.php on line 45
+2024-07-22 7:03:14 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/jorro/stl/speedy_v3/catalog/model/catalog/product.php on line 45
+2024-07-22 7:03:14 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/jorro/stl/speedy_v3/catalog/model/catalog/product.php on line 45
+2024-07-22 7:03:14 - PHP Unknown:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/jorro/stl/speedy_v3/catalog/model/catalog/product.php on line 45
+2024-07-22 9:29:57 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 103
+2024-07-22 9:33:52 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 434
+2024-07-22 9:34:03 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 1453
+2024-07-22 10:01:37 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 434
+2024-07-22 10:05:01 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 434
+2024-07-22 10:06:08 - Speedy :: createBillOfLading :: PickingValidationException[INVALID_PHONE_NUMBER, Invalid phone number 43543534534 No 1, For SENDER (EE20240722130607474DXMJRUZY)]
+2024-07-22 10:08:43 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 434
+2024-07-22 10:08:47 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 1453
+2024-07-22 10:09:40 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 844
+2024-07-22 10:10:43 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 434
+2024-07-22 10:11:09 - Speedy :: createBillOfLading :: PickingValidationException[INVALID_PHONE_NUMBER, Invalid phone number 43543534534 No 1, For SENDER (EE20240722131107656PLIRAQDV)]
+2024-07-22 10:12:11 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 434
+2024-07-22 10:12:14 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 1453
+2024-07-22 10:12:19 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 844
+2024-07-22 10:12:42 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 434
+2024-07-22 11:10:31 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 434
+2024-07-22 11:10:34 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/storagee/modification/admin/controller/sale/order.php on line 1453
+2024-07-23 6:16:32 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 103
+2024-07-23 6:24:09 - Speedy :: initConnection :: Error finding "uri" property
+2024-07-23 6:24:45 - Speedy :: initConnection :: Error finding "uri" property
+2024-07-23 6:26:04 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 116
+2024-07-23 6:26:08 - Speedy :: initConnection :: com.omgm.skylogistics.web.soap.eps.exception.login.InvalidUsernameOrPasswordException (EE20240723092607844UUSEZTLH)
+2024-07-23 6:27:34 - Speedy :: initConnection :: com.omgm.skylogistics.web.soap.eps.exception.login.InvalidUsernameOrPasswordException (EE20240723092733943PQYOIIVZ)
+2024-07-23 14:36:05 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 103
+2024-07-23 14:49:13 - PHP Warning:  Undefined array key "bg" in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:49:13 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:50:37 - PHP Warning:  Undefined array key "en-gb" in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:50:37 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:50:40 - PHP Warning:  Undefined array key "en-gb" in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:50:40 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:50:46 - PHP Warning:  Undefined array key "en-gb" in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:50:46 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:51:12 - PHP Warning:  Undefined array key "en-gb" in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:51:12 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:51:16 - PHP Warning:  Undefined array key "en-gb" in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:51:16 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:51:34 - PHP Warning:  Undefined array key "en-gb" in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:51:34 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:51:38 - PHP Warning:  Undefined array key "en-gb" in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:51:38 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 117
+2024-07-23 14:57:29 - PHP Unknown:  hash_hmac(): Passing null to parameter #3 ($key) of type string is deprecated in /home/jorro/stl/speedy_v3/admin/controller/marketplace/marketplace.php on line 111
+2024-07-23 14:57:29 - PHP Unknown:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/jorro/stl/speedy_v3/admin/controller/marketplace/marketplace.php on line 113
+2024-07-23 14:57:41 - PHP Unknown:  hash_hmac(): Passing null to parameter #3 ($key) of type string is deprecated in /home/jorro/stl/speedy_v3/admin/controller/marketplace/marketplace.php on line 111
+2024-07-23 14:57:41 - PHP Unknown:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/jorro/stl/speedy_v3/admin/controller/marketplace/marketplace.php on line 113
+2024-07-23 14:57:59 - PHP Unknown:  hash_hmac(): Passing null to parameter #3 ($key) of type string is deprecated in /home/jorro/stl/speedy_v3/admin/controller/marketplace/marketplace.php on line 111
+2024-07-23 14:57:59 - PHP Unknown:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/jorro/stl/speedy_v3/admin/controller/marketplace/marketplace.php on line 113
+2024-07-25 6:32:22 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 103
+2024-07-25 6:59:55 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/system/library/cart/user.php on line 43
+2024-07-25 7:00:11 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 116
+2024-07-25 7:00:11 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 7:00:11 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 7:32:22 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/system/library/cart/user.php on line 43
+2024-07-25 7:35:09 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 7:35:09 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 7:36:43 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 7:36:43 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 7:38:25 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 7:38:25 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 7:39:02 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 7:39:02 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 7:40:32 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 7:40:32 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 8:55:26 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/system/library/cart/user.php on line 43
+2024-07-25 9:00:00 - PHP Warning:  Undefined variable $speedy_convertion_to_win1251 in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 204
+2024-07-25 9:00:00 - PHP Warning:  Undefined array key "cod" in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 906
+2024-07-25 9:00:00 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 906
+2024-07-25 9:00:00 - PHP Warning:  Undefined array key "cod" in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 915
+2024-07-25 9:00:00 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 915
+2024-07-25 9:00:00 - PHP Warning:  Undefined array key "cod" in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 956
+2024-07-25 9:00:00 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 956
+2024-07-25 9:00:00 - PHP Warning:  Undefined array key "id" in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 978
+2024-07-25 9:04:53 - PHP Warning:  Undefined variable $speedy_convertion_to_win1251 in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 204
+2024-07-25 9:04:53 - PHP Warning:  Undefined array key "cod" in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 906
+2024-07-25 9:04:53 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 906
+2024-07-25 9:04:53 - PHP Warning:  Undefined array key "cod" in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 915
+2024-07-25 9:04:53 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 915
+2024-07-25 9:04:53 - PHP Warning:  Undefined array key "cod" in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 956
+2024-07-25 9:04:53 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 956
+2024-07-25 9:04:53 - PHP Warning:  Undefined array key "id" in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 978
+2024-07-25 9:04:55 - PHP Warning:  Undefined variable $speedy_convertion_to_win1251 in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 204
+2024-07-25 9:04:55 - PHP Warning:  Undefined array key "cod" in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 906
+2024-07-25 9:04:55 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 906
+2024-07-25 9:04:55 - PHP Warning:  Undefined array key "cod" in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 915
+2024-07-25 9:04:55 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 915
+2024-07-25 9:04:55 - PHP Warning:  Undefined array key "cod" in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 956
+2024-07-25 9:04:55 - PHP Warning:  Trying to access array offset on value of type null in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 956
+2024-07-25 9:04:55 - PHP Warning:  Undefined array key "id" in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 978
+2024-07-25 9:08:10 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 114
+2024-07-25 9:08:13 - PHP Warning:  Undefined variable $speedy_convertion_to_win1251 in /home/jorro/stl/speedy_v3/admin/view/template/extension/shipping/speedy.tpl on line 204
+2024-07-25 12:43:35 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/catalog/controller/startup/startup.php on line 103
+2024-07-25 12:44:03 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 116
+2024-07-25 13:22:29 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:22:29 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:22:51 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:22:51 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:22:53 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:22:53 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:23:11 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:23:11 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:23:14 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:23:14 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:34:39 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:34:39 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:35:23 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:35:23 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:37:35 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:37:35 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:37:58 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:37:58 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:38:20 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:38:20 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:40:22 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:40:22 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:41:04 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:41:04 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:41:32 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:41:32 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:47:50 - PHP Unknown:  Automatic conversion of false to array is deprecated in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 116
+2024-07-25 13:47:50 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:47:50 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:52:40 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:52:40 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:53:08 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:53:08 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:55:30 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:55:30 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:56:55 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:56:55 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 13:59:19 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 13:59:19 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 14:01:15 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 14:01:15 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 14:03:31 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 14:03:31 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 14:04:08 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 14:04:08 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630
+2024-07-25 14:04:36 - PHP Warning:  Undefined array key "streetType" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 629
+2024-07-25 14:04:36 - PHP Warning:  Undefined array key "streetName" in /home/jorro/stl/speedy_v3/system/library/speedy.php on line 630

@@ -1,0 +1,238 @@
+2024-07-23 6:29:40 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: if (is_file($file)) {
+LINE: 13
+----------------------------------------------------------------
+MOD: Modification Manager
+
+FILE: admin/controller/marketplace/modification.php
+CODE: protected function validate(
+LINE: 1367
+CODE: $results = $this->model_setting_modification->getModifications();
+LINE: 125
+CODE: $this->load->model('setting/modification');
+LINE: 18
+LINE: 32
+LINE: 70
+LINE: 480
+LINE: 551
+LINE: 587
+LINE: 623
+CODE: $this->getList();
+LINE: 24
+LINE: 66
+LINE: 480
+LINE: 555
+LINE: 595
+LINE: 635
+LINE: 677
+CODE: $sort = 'name';
+LINE: 684
+CODE: $order = 'ASC';
+LINE: 690
+CODE: $handle = fopen(DIR_LOGS . 'ocmod.log', 'w+');
+LINE: 652
+CODE: $maintenance = $this->config->get('config_maintenance');
+LINE: 111
+CODE: $data['breadcrumbs'] = array();
+LINE: 784
+CODE: $data['sort_name'] =
+LINE: 875
+CODE: $filter_data = array(
+LINE: 805
+CODE: $modification_total = $this->model_setting_modification->getTotalModifications();
+LINE: 812
+CODE: $data['modifications'][] = array(
+LINE: 824
+CODE: $pagination =
+LINE: 912
+CODE: $data['clear_log'] =
+LINE: 805
+CODE: $this->load->view('marketplace/modification'
+LINE: 977
+CODE: $this->response->redirect($this->url->link(!empty($data['redirect']) ? $data['redirect'] : 'marketplace/modification'
+LINE: 512
+CODE: $this->response->redirect($this->url->link(!empty($data['redirect']) ? $data['redirect'] : 'marketplace/modification'
+LINE: 512
+CODE: if ($this->validate()) {
+LINE: 105
+CODE: $log[] = 'MOD:
+LINE: 229
+CODE: $operations = $file->getElementsByTagName('operation');
+LINE: 244
+CODE: $files = glob($path, GLOB_BRACE);
+LINE: 273
+CODE: if (!$status) {
+LINE: 466
+CODE: $ocmod->write(implode("\n", $log));
+LINE: 505
+CODE: $this->load->language('marketplace/modification');
+LINE: 11
+LINE: 30
+LINE: 73
+LINE: 576
+LINE: 652
+LINE: 693
+LINE: 734
+LINE: 1048
+LINE: 1182
+LINE: 1228
+CODE: $this->model_setting_modification->
+LINE: 42
+LINE: 209
+LINE: 663
+LINE: 704
+LINE: 918
+LINE: 921
+----------------------------------------------------------------
+MOD: Speedy Shipping
+
+FILE: catalog/view/theme/default/template/checkout/shipping_method.twig
+CODE: <p><strong>{{ text_comments }}</strong></p>
+LINE: 27
+CODE: id="button-shipping-method"
+LINE: 123
+
+FILE: catalog/controller/account/logout.php
+CODE: unset($this->session->data['order_id']);
+LINE: 16
+
+FILE: catalog/controller/checkout/confirm.php
+CODE: $order_data['shipping_firstname'] = '';
+LINE: 268
+CODE: $this->session->data['order_id'] = $this->model_checkout_order->addOrder($order_data);
+LINE: 411
+CODE: $data['payment']
+LINE: 554
+
+FILE: catalog/controller/checkout/shipping_method.php
+CODE: $this->response->setOutput($this->load->view('checkout/shipping_method', $data));
+LINE: 71
+
+FILE: catalog/controller/checkout/payment_method.php
+CODE: if (isset($this->session->data['payment_address'])) {
+LINE: 5
+CODE: if ($method) {
+LINE: 59
+CODE: foreach ($method_data as $key => $value) {
+LINE: 74
+
+FILE: catalog/controller/checkout/success.php
+CODE: unset($this->session->data['order_id']);
+LINE: 17
+
+FILE: catalog/model/account/address.php
+CODE: public function editAddress($address_id, $data) {
+LINE: 17
+CODE: public function deleteAddress($address_id) {
+LINE: 28
+
+FILE: catalog/controller/api/shipping.php
+CODE: $json['shipping_methods'] = array();
+LINE: 171
+
+FILE: catalog/controller/api/order.php
+CODE: $this->model_checkout_order->editOrder($order_id, $order_data);
+LINE: 693
+CODE: if (!$json) {
+LINE: 35
+LINE: 70
+LINE: 116
+LINE: 427
+LINE: 462
+LINE: 507
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'sale/recurring')) {
+LINE: 256
+
+FILE: admin/controller/sale/order.php
+CODE: $results = $this->model_sale_order->getOrders($filter_data);
+LINE: 301
+CODE: 'shipping_code' => $result['shipping_code'],
+LINE: 315
+CODE: $data['header'] = $this->load->controller('common/header');
+LINE: 486
+LINE: 828
+LINE: 1378
+CODE: $data['total'] = $this->currency->format($order_info['total'], $order_info['currency_code'], $order_info['currency_value']);
+NOT FOUND - OPERATION SKIPPED!
+CODE: $data['comment'] = nl2br($order_info['comment']);
+LINE: 1157
+CODE: $total_data[] = array(
+LINE: 1903
+CODE: $data['order_status_id']
+LINE: 750
+CODE: $data['shipping_code'] = $order_info['shipping_code'];
+LINE: 607
+CODE: $data['shipping_code'] = '';
+LINE: 696
+
+FILE: admin/view/template/sale/order_list.twig
+CODE: <td class="text-right">{{ column_action }}</td>
+LINE: 108
+CODE: <div class="pull-right">
+LINE: 9
+CODE: <td class="text-left">{{ order.date_modified }}</td>
+LINE: 144
+CODE: <td class="text-center" colspan="8">{{ text_no_results }}</td>
+LINE: 158
+
+FILE: admin/model/customer/customer.php
+CODE: public function editCustomer($customer_id, $data) {
+LINE: 29
+CODE: public function deleteCustomer($customer_id) {
+LINE: 62
+
+FILE: catalog/controller/account/order.php
+CODE: $data['comment']
+LINE: 385
+
+FILE: catalog/view/theme/default/template/account/order_info.twig
+CODE: {{ shipping_method }}
+LINE: 45
+
+FILE: admin/view/template/sale/order_form.twig
+CODE: url: '{{ catalog }}index.php?route=api/shipping/methods&api_token={{ api_token }}&store_id=' + $('select[name=\'store_id\'] option:selected').val(),
+LINE: 1882
+
+FILE: admin/view/template/catalog/product_form.twig
+CODE: <label class="col-sm-2 control-label" for="input-length">{{ entry_dimension }}</label>
+LINE: 311
+
+FILE: admin/controller/catalog/product.php
+CODE: $this->model_catalog_product->addProduct($this->request->post);
+LINE: 22
+CODE: $this->model_catalog_product->editProduct($this->request->get['product_id'], $this->request->post);
+LINE: 83
+CODE: $this->load->model('localisation/length_class');
+LINE: 855
+
+FILE: admin/controller/startup/permission.php
+CODE: 'extension/report'
+LINE: 31
+----------------------------------------------------------------
