@@ -499,6 +499,32 @@ class ControllerExtensionShippingSpeedy extends Controller {
 			$data['shipping_speedy_invoice_courier_sevice_as_text'] = $this->config->get('shipping_speedy_invoice_courier_sevice_as_text');
 		}
 
+        if (isset($this->request->post['shipping_speedy_administrative_fee'])) {
+			$data['shipping_speedy_administrative_fee'] = $this->request->post['shipping_speedy_administrative_fee'];
+		} else {
+			$data['shipping_speedy_administrative_fee'] = $this->config->get('shipping_speedy_administrative_fee');
+		}
+
+		if (isset($this->request->post['shipping_speedy_special_delivery_id'])) {
+			$data['shipping_speedy_special_delivery_id'] = $this->request->post['shipping_speedy_special_delivery_id'];
+		} else {
+			$data['shipping_speedy_special_delivery_id'] = $this->config->get('shipping_speedy_special_delivery_id');
+		}
+
+		if (isset($this->request->post['shipping_speedy_saturday_delivery'])) {
+			$data['shipping_speedy_saturday_delivery'] = $this->request->post['shipping_speedy_saturday_delivery'];
+		} else {
+			$data['shipping_speedy_saturday_delivery'] = $this->config->get('shipping_speedy_saturday_delivery');
+		}
+
+		if (isset($this->request->post['shipping_speedy_one_field_address'])) {
+			$data['shipping_speedy_one_field_address'] = $this->request->post['shipping_speedy_one_field_address'];
+		} else if ($this->config->get('shipping_speedy_one_field_address') != null) {
+			$data['shipping_speedy_one_field_address'] = $this->config->get('shipping_speedy_one_field_address');
+		} else {
+			$data['shipping_speedy_one_field_address'] = 0;
+		}
+
 		$this->load->model('localisation/currency');
 
 		$data['currencies'] = $this->model_localisation_currency->getCurrencies();
@@ -518,6 +544,8 @@ class ControllerExtensionShippingSpeedy extends Controller {
 		$data['services'] = $this->speedy->getServices($this->language->get('code'));
 
 		$data['clients'] = $this->speedy->getListContractClients();
+
+        $data['clientrequirements'] = $this->speedy->getListContractReq();
 
 		$data['offices'] = $this->speedy->getOffices(null, null, $this->language->get('code'));
 

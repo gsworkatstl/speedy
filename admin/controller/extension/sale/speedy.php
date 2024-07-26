@@ -78,6 +78,7 @@ class ControllerExtensionSaleSpeedy extends Controller {
 			}
 
 			if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm() && !$this->request->post['calculate']) {
+				// dd('validate?');
 				$this->request->post['taking_date'] = strtotime($this->request->post['taking_date']);
 
 				if (isset($this->request->post['shipping_method'])) {
@@ -115,7 +116,6 @@ class ControllerExtensionSaleSpeedy extends Controller {
 				unset($speedy_order_data['fixed_time_cb']);
 
 				$speedy_data = array_merge($speedy_order_data, $this->request->post);
-
 				$bol = $this->speedy->createBillOfLading($speedy_data, $order_info);
 
 				if (!$this->speedy->getError() && $bol) {
@@ -756,6 +756,28 @@ class ControllerExtensionSaleSpeedy extends Controller {
 				$data['address_2'] = $speedy_order_data['address_2'];
 			} else {
 				$data['address_2'] = '';
+			}
+
+			if (isset($this->request->post['saturday_delivery'])) {
+				$data['saturday_delivery'] = $this->request->post['saturday_delivery'];
+			} elseif (isset($speedy_order_data['saturday_delivery'])) {
+				$data['saturday_delivery'] = $speedy_order_data['saturday_delivery'];
+			} else {
+				$data['saturday_delivery'] = $this->config->get('speedy_saturday_delivery');
+			}
+
+			if (isset($this->request->post['administration_fee'])) {
+				$data['administration_fee'] = $this->request->post['administration_fee'];
+			} elseif (isset($speedy_order_data['administration_fee'])) {
+				$data['administration_fee'] = $speedy_order_data['administration_fee'];
+			} else {
+				$data['administration_fee'] = $this->config->get('speedy_administrative_fee');
+			}
+
+			if (isset($speedy_order_data['speedy_one_field_address'])) {
+				$data['speedy_one_field_address'] = $speedy_order_data['speedy_one_field_address'];
+			} else {
+				$data['speedy_one_field_address'] = 0;
 			}
 
 			$data['offices'] = array();
@@ -1550,6 +1572,7 @@ class ControllerExtensionSaleSpeedy extends Controller {
 	}
 
 	protected function validateForm() {
+		// dd('validate');
 			if (!$this->user->hasPermission('modify', 'extension/sale/speedy')) {
 				$this->error['warning'] = $this->language->get('error_permission');
 			}

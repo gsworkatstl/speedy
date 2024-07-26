@@ -83,6 +83,9 @@ $_['entry_money_transfer']        = 'Money transfer (instead of Cash on Delivery
 $_['entry_courier_sevice']        = 'Shipping cost is included in invoice:';
 $_['entry_currency']              = 'Currency:';
 $_['entry_order_status_update']   = 'Synchronize statuses:';
+$_['entry_administration_fee']    = 'Administrative Fee:';
+$_['entry_special_delivery_id']   = 'Additional service requirements:';
+$_['entry_saturday_delivery']     = 'Saturday delivery:';
 
 // Help
 $_['help_fragile']                = '\'Fragile items\' can be active only if declared value is set.';

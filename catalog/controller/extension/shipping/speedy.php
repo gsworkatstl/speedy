@@ -351,6 +351,14 @@ class ControllerExtensionShippingSpeedy extends Controller {
 			$data['state_id'] = '';
 		}
 
+		if (isset($this->request->post['speedy_saturday_delivery'])) {
+			$data['speedy_saturday_delivery'] = $this->request->post['speedy_saturday_delivery'];
+		} elseif (isset($shipping_address['speedy_saturday_delivery'])) {
+			$data['speedy_saturday_delivery'] = $shipping_address['speedy_saturday_delivery'];
+		} else {
+			$data['speedy_saturday_delivery'] = '';
+		}
+
 		if (isset($this->request->post['address_1'])) {
 			$data['address_1'] = $this->request->post['address_1'];
 		} elseif (isset($shipping_address['address_1'])) {
@@ -404,6 +412,7 @@ class ControllerExtensionShippingSpeedy extends Controller {
 
 		$data['fixed_time'] = $this->config->get('shipping_speedy_fixed_time');
 		$data['option_before_payment'] = $this->config->get('shipping_speedy_option_before_payment');
+		$data['speedy_special_delivery_id'] = $this->config->get('shipping_speedy_special_delivery_id');
 		$data['ignore_obp'] = $this->config->get('shipping_speedy_ignore_obp');
 
 		$data['hours'] = array();
